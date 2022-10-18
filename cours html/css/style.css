@@ -1,0 +1,42 @@
+@font-face {
+    font-family: neon;
+    src: url(../NeonSans.otf);
+}
+.t1 h1{
+    color: rgb(0, 225, 255);
+    text-align: center;
+    font-family: "neon";
+    font-size: 50px;
+}
+
+body {
+    background-image:url('../img/neige.gif');
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+
+.liste {
+    border: 10px solid rgb(126, 0, 115);
+    width: fit-content;
+    margin-inline: auto;
+    margin-top: 80px;
+    text-align: center;
+    background-color: rgb(234, 0, 255);
+    padding: 90px;
+    border-radius: 5%;
+}
+
+input[type=text]
+{
+    color: #000000;
+    height: 28px;
+    padding-left: 10px;
+    text-decoration: none;
+        background-image: url('http://i.stack.imgur.com/pbpVI.png');
+    background-repeat: repeat-x;
+
+}
+
