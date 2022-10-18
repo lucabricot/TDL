@@ -13,8 +13,9 @@
             <h1>To do list</h1>
         </div>
          <div class="liste">
-            <input id="txtScrictAddress" placeholder="Tâches (pistaches)" type="text">
-                <div class="select">
+            <input class="task" placeholder="Tâches (pistaches)" type="text" id="task_box">
+            <button id="btn">+</button>    
+            <div class="select">
                     <select name="slct" id="slct">
                         <option value="1">Lucas</option>
                         <option value="2">Maxime</option>
@@ -22,11 +23,26 @@
                         <option value="4">Axel</option>
                     </select>
                 </div>
-            <button onclick="myFunction1()">Send</button>
+            
         </div>
     </section>
+
+    <section class="flexboxes">
+        <div class="boxe_lucas" id="lucas">
+            <h1>Lucas</h1>
+        </div>
+        <div class="boxe_maxime" id="maxime">
+            <h1>Maxime</h1>
+        </div>
+        <div class="boxe_ismail" id="ismail">
+            <h1>Ismail</h1>
+        </div>
+        <div class="boxe_axel" id="axel">
+            <h1>Axel</h1>
+        </div>
         
+    </section>
     
-    
+    <script src="/js/script.js"></script>
 </body>
 </html>

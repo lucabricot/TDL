@@ -1,16 +1,17 @@
 @font-face {
-    font-family: neon;
-    src: url(../NeonSans.otf);
+    font-family: retro;
+    src: url(../Retronoid.otf);
 }
 .t1 h1{
-    color: rgb(0, 225, 255);
+    color: rgb(255, 94, 0);
     text-align: center;
-    font-family: "neon";
+    font-family: "retro";
     font-size: 50px;
+
 }
 
 body {
-    background-image:url('../img/neige.gif');
+    background-image:url('../img/neige.jpg');
     background-size:100%;
     background-repeat: repeat-y;
     background-attachment: fixed;
@@ -19,24 +20,80 @@ body {
 }
 
 .liste {
-    border: 10px solid rgb(126, 0, 115);
+    border: 10px solid rgb(153, 74, 0);
     width: fit-content;
     margin-inline: auto;
-    margin-top: 80px;
     text-align: center;
-    background-color: rgb(234, 0, 255);
-    padding: 90px;
+    background-color: rgb(255, 153, 0);
+    padding-inline: 300px;
+    padding-block: 100px;
     border-radius: 5%;
+    justify-content: space-between;
 }
 
-input[type=text]
-{
-    color: #000000;
-    height: 28px;
-    padding-left: 10px;
-    text-decoration: none;
-        background-image: url('http://i.stack.imgur.com/pbpVI.png');
-    background-repeat: repeat-x;
+input{
+    width:500px;
+    height: 20px;
+    padding: 10px 5px;
+    border: 1px solid black;
+    outline: 0;
+    border-radius: 5px;
 
+} 
+
+button {
+   width: 44px; 
+   font-size: 20px;
+   height: 44px;
+   border:0;
+   border-radius: 5px;
+   background-color: rgb(255, 94, 0);
 }
 
+.boxe_lucas{
+    border: 10px solid rgb(153, 74, 0);
+    width: fit-content;
+    margin-inline: auto;
+    text-align: center;
+    background-color: rgb(255, 153, 0);
+    padding-inline: 300px;
+    padding-bottom: 100px;
+    border-radius: 5%;
+    justify-content: space-between;
+}
+
+.boxe_maxime{
+    border: 10px solid rgb(153, 74, 0);
+    width: fit-content;
+    margin-inline: auto;
+    text-align: center;
+    background-color: rgb(255, 153, 0);
+    padding-inline: 300px;
+    padding-bottom: 100px;
+    border-radius: 5%;
+    justify-content: space-between;
+}
+
+.boxe_ismail{
+    border: 10px solid rgb(153, 74, 0);
+    width: fit-content;
+    margin-inline: auto;
+    text-align: center;
+    background-color: rgb(255, 153, 0);
+    padding-inline: 300px;
+    padding-bottom: 100px;
+    border-radius: 5%;
+    justify-content: space-between;
+}
+
+.boxe_axel{
+    border: 10px solid rgb(153, 74, 0);
+    width: fit-content;
+    margin-inline: auto;
+    text-align: center;
+    background-color: rgb(255, 153, 0);
+    padding-inline: 300px;
+    padding-bottom: 100px;
+    border-radius: 5%;
+    justify-content: space-between;
+}
