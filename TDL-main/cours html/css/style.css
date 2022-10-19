@@ -1,0 +1,112 @@
+@font-face {
+    font-family: retro;
+    src: url(../Retronoid.otf);
+}
+.t1 h1{
+    color: rgb(255, 94, 0);
+    text-align: center;
+    font-family: "retro";
+    font-size: 50px;
+
+}
+
+body {
+    background-image:url('../img/neige.jpg');
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+    justify-content: center;
+}
+
+.liste {
+    border: 10px solid rgb(153, 74, 0);
+    width: fit-content;
+    margin-inline: auto;
+    text-align: center;
+    background-color: rgb(255, 153, 0);
+    padding-inline: 300px;
+    padding-block: 100px;
+    border-radius: 5%;
+    justify-content: space-between;
+}
+
+input{
+    width:500px;
+    height: 20px;
+    padding: 10px 5px;
+    border: 1px solid black;
+    outline: 0;
+    border-radius: 5px;
+
+} 
+
+button {
+   width: 44px; 
+   font-size: 20px;
+   height: 44px;
+   border:0;
+   border-radius: 5px;
+   background-color: rgb(255, 94, 0);
+}
+
+button:hover{
+    opacity: 70%;
+}
+
+.boxe_lucas{
+    border: 10px solid rgb(153, 74, 0);
+    width: fit-content;
+    margin-inline: auto;
+    text-align: center;
+    background-color: rgb(255, 153, 0);
+    padding-inline: 300px;
+    padding-bottom: 100px;
+    border-radius: 5%;
+    justify-content: space-between;
+}
+
+.boxe_maxime{
+    border: 10px solid rgb(153, 74, 0);
+    width: fit-content;
+    margin-inline: auto;
+    text-align: center;
+    background-color: rgb(255, 153, 0);
+    padding-inline: 300px;
+    padding-bottom: 100px;
+    border-radius: 5%;
+    justify-content: space-between;
+}
+
+.boxe_ismail{
+    border: 10px solid rgb(153, 74, 0);
+    width: fit-content;
+    margin-inline: auto;
+    text-align: center;
+    background-color: rgb(255, 153, 0);
+    padding-inline: 300px;
+    padding-bottom: 100px;
+    border-radius: 5%;
+    justify-content: space-between;
+}
+
+.boxe_axel{
+    border: 10px solid rgb(153, 74, 0);
+    width: fit-content;
+    margin-inline: auto;
+    text-align: center;
+    background-color: rgb(255, 153, 0);
+    padding-inline: 300px;
+    padding-bottom: 100px;
+    border-radius: 5%;
+    justify-content: space-between;
+}
+.t1 h1:hover{
+    color: rgb(255, 136, 0);
+}
+
+.flexboxes{
+    justify-content: space-between;
+    display: flex;
+}
